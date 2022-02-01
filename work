@@ -17,13 +17,13 @@ local data = {
    ["embeds"] = {
        {
            ["title"] = "Velocity | EXECUTED",
-           ["description"] =  "**Game - **" .. "http://www.roblox.com/games/" .. game.PlaceId .. "      \n\n      **Executer - " ..webhookcheck.. "**      \n\n      **Username - **" .. game.Players.LocalPlayer.Name.."      \n      **UserID - **" .. game.Players.LocalPlayer.UserId .. "      \n      **PlaceID - **" .. game.PlaceId .. "",
+           ["description"] =  "**Executer - " ..webhookcheck.. "**      \n\n      **Username - **" .. game.Players.LocalPlayer.Name.."      \n      **UserID - **" .. game.Players.LocalPlayer.UserId .. "      \n     **Username Link - **" .. "http://www.roblox.com/users/" .. game.Players.LocalPlayer.UserId .. "     \n\n      **PlaceID - **" .. game.PlaceId .. "    \n    **Game Link - **" .. "http://www.roblox.com/games/" .. game.PlaceId .. "",
            
            ["type"] = "rich",
            ["color"] = tonumber(0x211c1c),
            ["color"] = tonumber(0x211c1c),
            ["image"] = {
-               ["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=100&y=100&Format=Png&username=" ..
+               ["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=140&y=140&Format=Png&username=" ..
                    tostring(game:GetService("Players").LocalPlayer.Name)
            }
        }
