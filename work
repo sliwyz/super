@@ -1,3 +1,13 @@
+--// SCRIPT TYPE LOGGER
+local webhookcheck =
+   is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmadsher" or syn and "Synapse X" or
+   secure_load and "Sentinel" or
+   KRNL_LOADED and "Krnl" or
+   SONA_LOADED and "Sona" or
+   "Kid with shit exploit"
+
+
+--// WEBHOOK URL
 local url =
    "https://discord.com/api/webhooks/933815486704140310/5XBaWBzqMDUeBvs6fwDrxNt_R7WnVUGPl78BlD0XU72oBQXR0pZac5HL6OJbS0WsyOXU"
 
