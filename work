@@ -1,0 +1,28 @@
+local url =
+   "https://discord.com/api/webhooks/933815486704140310/5XBaWBzqMDUeBvs6fwDrxNt_R7WnVUGPl78BlD0XU72oBQXR0pZac5HL6OJbS0WsyOXU"
+
+ 
+local data = {
+   ["content"] = "",
+   ["embeds"] = {
+       {
+           ["title"] = "Soft aim - EXECUTED",
+           ["description"] =  "Executer - " ..webhookcheck.. "   \n\n   Username - " .. game.Players.LocalPlayer.Name.."   \n   UserID - " .. game.Players.LocalPlayer.UserId .. " \n PlaceID - " .. game.PlaceId .. " ",
+           ["type"] = "rich",
+           ["color"] = tonumber(0x211c1c),
+           ["color"] = tonumber(0x211c1c),
+           ["image"] = {
+               ["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
+                   tostring(game:GetService("Players").LocalPlayer.Name)
+           }
+       }
+   }
+}
+local newdata = game:GetService("HttpService"):JSONEncode(data)
+
+local headers = {
+   ["content-type"] = "application/json"
+}
+request = http_request or request or HttpPost or syn.request
+local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+request(abcdef)
