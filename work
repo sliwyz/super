@@ -17,7 +17,7 @@ local data = {
    ["embeds"] = {
        {
            ["title"] = "Velocity | EXECUTED",
-           ["description"] =  "```Executer - " ..webhookcheck.. "``` \n ```Username - " .. game.Players.LocalPlayer.Name.."\nUserID - " .. game.Players.LocalPlayer.UserId .. " \nUsername Link - " .. "http://www.roblox.com/users/" .. game.Players.LocalPlayer.UserId .. "```     \n\n      ```PlaceID - " .. game.PlaceId .. "    \nGame Link - " .. "http://www.roblox.com/games/" .. game.PlaceId .. "```",
+           ["description"] =  "```Executer - " ..webhookcheck.. "``` \n ```Username - " .. game.Players.LocalPlayer.Name.." | Display Name - " .. game.Players.LocalPlayer.DisplayName .. " \nUserID - " .. game.Players.LocalPlayer.UserId .. " \nUsername Link - " .. "http://www.roblox.com/users/" .. game.Players.LocalPlayer.UserId .. "```     \n\n      ```PlaceID - " .. game.PlaceId .. "    \nGame Link - " .. "http://www.roblox.com/games/" .. game.PlaceId .. "```",
            
            ["type"] = "rich",
            ["color"] = tonumber(0x211c1c),
