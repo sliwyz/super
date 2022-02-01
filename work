@@ -16,13 +16,14 @@ local data = {
    ["content"] = "",
    ["embeds"] = {
        {
-           ["title"] = "Velocity - Da Hood | EXECUTED",
-           ["description"] =  "**Executer - " ..webhookcheck.. "**   \n\n   **Username - **" .. game.Players.LocalPlayer.Name.."   \n   **UserID - **" .. game.Players.LocalPlayer.UserId .. " \n **PlaceID - **" .. game.PlaceId .. " ",
+           ["title"] = "Velocity | EXECUTED",
+           ["description"] =  "**Game - **" .. "http://www.roblox.com/games/" .. game.PlaceId .. "      \n\n      **Executer - " ..webhookcheck.. "**      \n\n      **Username - **" .. game.Players.LocalPlayer.Name.."      \n      **UserID - **" .. game.Players.LocalPlayer.UserId .. "      \n      **PlaceID - **" .. game.PlaceId .. "",
+           
            ["type"] = "rich",
            ["color"] = tonumber(0x211c1c),
            ["color"] = tonumber(0x211c1c),
            ["image"] = {
-               ["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username=" ..
+               ["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=100&y=100&Format=Png&username=" ..
                    tostring(game:GetService("Players").LocalPlayer.Name)
            }
        }
