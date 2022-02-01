@@ -16,8 +16,8 @@ local data = {
    ["content"] = "",
    ["embeds"] = {
        {
-           ["title"] = "Velocity - EXECUTED",
-           ["description"] =  "Executer - " ..webhookcheck.. "   \n\n   Username - " .. game.Players.LocalPlayer.Name.."   \n   UserID - " .. game.Players.LocalPlayer.UserId .. " \n PlaceID - " .. game.PlaceId .. " ",
+           ["title"] = "Velocity - Da Hood | EXECUTED",
+           ["description"] =  "**Executer - " ..webhookcheck.. "**   \n\n   **Username - **" .. game.Players.LocalPlayer.Name.."   \n   **UserID - **" .. game.Players.LocalPlayer.UserId .. " \n **PlaceID - **" .. game.PlaceId .. " ",
            ["type"] = "rich",
            ["color"] = tonumber(0x211c1c),
            ["color"] = tonumber(0x211c1c),
