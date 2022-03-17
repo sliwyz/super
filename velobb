@@ -13,7 +13,7 @@ local data = {
    ["content"] = "",
    ["embeds"] = {
        {
-           ["title"] = "Velocity (Bloxburg) | EXECUTED",
+           ["title"] = "Velocity - Bloxburg | EXECUTED",
            ["description"] =  "```Executer - " ..webhookcheck.. "``` \n ```Username - " .. game.Players.LocalPlayer.Name.." | Display Name - " .. game.Players.LocalPlayer.DisplayName .. " \nUserID - " .. game.Players.LocalPlayer.UserId .. " \nUsername Link - " .. "http://www.roblox.com/users/" .. game.Players.LocalPlayer.UserId .. "```     \n\n      ```PlaceID - " .. game.PlaceId .. "    \nGame Link - " .. "http://www.roblox.com/games/" .. game.PlaceId .. "```",
            
            ["type"] = "rich",
